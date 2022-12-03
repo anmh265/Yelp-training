@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: font-semisans;
+    src: url('https://s3-media0.fl.yelpcdn.com/assets/public/open-sans-semibold.yji-d3abae27d3eac73b40a5.woff2');
+}
+@font-face {
+    font-family: font-regularsans;
+    src: url('https://s3-media0.fl.yelpcdn.com/assets/public/open-sans-regular.yji-aff9b80e384301f2ae0c.woff2');
+}
+@font-face {
+    font-family: font-mediumpoppins;
+    src: url('https://s3-media0.fl.yelpcdn.com/assets/public/poppins-medium.yji-dc16a3592fdb61b620cc.woff2');
+}
+@font-face {
+    font-family: font-boldpoppins;
+    src: url('https://s3-media0.fl.yelpcdn.com/assets/public/poppins-bold.yji-9690ce6275ddc5645cfa.woff2');
+}
+@font-face {
+    font-family: font-boldsans;
+    src: url('https://s3-media0.fl.yelpcdn.com/assets/public/open-sans-bold.yji-1145ff0b749fff2d31bb.woff2');
+}
+
+body{
+    font-family: font-semisans, font-regularsans, font-mediumpoppins, font-boldpoppins, font-boldsans;
+}
+header{
+    background-image: url(./Assets/slide-img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.header-logo-login{
+    padding: 24px 40px 0;
+    display: flex;
+    align-items: center;
+}
+.header-logo-login > a{
+    display: inline-block;
+    width: 273px;
+    transform: translateY(2px);
+}
+.form-input{
+    width: 100%;
+    max-width: 955px;
+    margin-left: 32px;
+    transform: translateX(1px);
+}
+.search-input{
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    height: 48px;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+.search-input input{
+    flex: 1;
+    padding: 13px 16px;
+    font-size: 16px;
+    font-family: font-regularsans;
+    border: none;
+}
+.search-input .francisco{
+    border-left: 1px solid #ebebeb;
+    color: #2d2e2f;
+}
+.search{
+    min-width: 56px;
+    border: none;
+    background-color: rgba(224, 7, 7, 1);
+}
+.search svg{
+    fill: white;
+    transform: translateY(2px);
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 57px;
+}
+header nav span{
+    padding: 8px;
+    margin-right: 8px;
+    transform: translateY(-2px);
+}
+header nav span a{
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    color: white;
+    padding-right: 8px;
+}
+header nav button{
+    border: none;
+    border-radius: 4px;
+    padding: 10px 16px;
+}
+header nav button a{
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: none;
+    color: white;
+    font-family: font-mediumpoppins;
+    white-space: nowrap;
+}
+header nav .login{
+    border: 2px solid rgba(200, 201, 201, 1);
+    background-color: transparent;
+    margin-right: 10px;
+}
+header nav .signup{
+    background-color: rgba(224, 7, 7, 1);
+    transform: translate(1px, -1px);
+}
+.service-links{
+    padding-inline: 40px;
+}
+.nav-link{
+    margin-left: 112px;
+    padding-left: 190px;
+}
+.nav-link ul{
+    list-style-type: none;
+    display: flex;
+    gap: 4px;
+    transform: translateY(1px);
+}
+.nav-link ul li{
+    display: flex;
+    padding: 16px 16px 20px;
+}
+.nav-link ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: font-regularsans;
+}
+.nav-link ul li span svg{
+    fill: white;
+    transform: translateY(-3px);
+    padding-left: 4px;
+}
+.header-banner-text{
+    max-width: 1224px;
+    padding-inline: 46px;
+    margin-inline: auto;
+    width: 100%;
+}
+.header-banner-maintext{
+    padding: 57px 0 200px;
+    display: flex;
+    gap: 32px;
+    max-width: 528px;
+}
+.color-flow-container{
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.color-flow{
+    width: 10px;
+    border-radius: 5px;
+    background-color: white;
+    flex: 1;
+}
+.changing-text h1{
+    font-size: 48px;
+    line-height: 56px;
+    font-family: font-boldpoppins;
+    color: white;
+    letter-spacing: -0.4px;
+    margin: 8px 0 24px;
+}
+.changing-text-btn{
+    padding: 12px 32px;
+    background-color: rgb(224, 7, 7);
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.changing-text-btn svg{
+    margin-right: 8px;
+    fill: white;
+}
+.changing-text-btn span{
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    font-family: font-mediumpoppins;
+}
+.header-banner-smalltext{
+    margin-bottom: 40px ;
+}
